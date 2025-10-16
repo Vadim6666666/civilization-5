@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMMAND_POST">Perimeter Command Post</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMMAND_POST_HELP">Base node of the Perimeter network. Unlocks readiness meter.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PROTECTED_LINK">Protected Link</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PROTECTED_LINK_HELP">Strengthens node connectivity and resilience.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_EARLY_WARNING">Early Warning Grid</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_EARLY_WARNING_HELP">Tracks threats and accelerates readiness growth.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_SILO">Strategic Silo</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_SILO_HELP">Allows launching the Perimeter protocol.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMPUTE_CENTER">Compute Center</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMPUTE_CENTER_HELP">Stores reaction windows and speeds up preparations.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PERIMETER_NODE">Perimeter Node</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PERIMETER_NODE_HELP">Critical network node required for the protocol.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_NATIONAL_VAULT">National Command Vault</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_NATIONAL_VAULT_HELP">National wonder. Supports maximum readiness.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_DUMMY_TEMP">Temporary Safeguard</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_DUMMY_TEMP_HELP">Technical helper building for temporary effects.</Row>
+
+    <Row Tag="TXT_KEY_PROJECT_RU_PERIMETER">Perimeter Protocol</Row>
+    <Row Tag="TXT_KEY_PROJECT_RU_PERIMETER_HELP">Triggers an automated retaliation when conditions are met.</Row>
+
+    <Row Tag="TXT_KEY_POLICY_RU_AL1">Readiness I</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL2">Readiness II</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL3">Readiness III</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL4">Readiness IV</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL5">Readiness V</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL_HELP">Used to persist the Perimeter readiness level.</Row>
+
+    <Row Tag="TXT_KEY_NOTIFICATION_RU_PERIMETER_ALERT">Perimeter: new threat detected!</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RU_PERIMETER_SUMMARY">Perimeter reacting</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RU_PERIMETER_DESC">An event raised the readiness level. Check the Perimeter panel.</Row>
+
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_TITLE">Perimeter Network</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_AL">Readiness level: {1}</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_MODE_AUTO">Auto mode: {1}</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_PRESET">Aggression profile: {1}</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_TOGGLE_AUTO">Toggle auto mode</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_CYCLE_PRESET">Cycle profile</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_NOTIFICATION_REACTION">Reaction fired: {1}</Row>
+  </Language_en_US>
+</GameData>

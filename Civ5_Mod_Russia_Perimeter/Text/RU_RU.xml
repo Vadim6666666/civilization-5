@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_ru_RU>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMMAND_POST">Командный пункт «Периметр»</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMMAND_POST_HELP">Базовый узел сети «Периметр». Открывает шкалу готовности.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PROTECTED_LINK">Защищённый канал</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PROTECTED_LINK_HELP">Усиливает связь между узлами и повышает устойчивость сети.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_EARLY_WARNING">Система раннего предупреждения</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_EARLY_WARNING_HELP">Позволяет отслеживать угрозы и ускоряет рост готовности.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_SILO">Ракетный комплекс</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_SILO_HELP">Позволяет активировать протокол «Периметр».</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMPUTE_CENTER">Вычислительный центр</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_COMPUTE_CENTER_HELP">Держит в памяти окна реакций и ускоряет их подготовку.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PERIMETER_NODE">Узел сети «Периметр»</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_PERIMETER_NODE_HELP">Ключевой элемент сети, необходимый для протокола.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_NATIONAL_VAULT">Национальный командный зал</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_NATIONAL_VAULT_HELP">Национальное чудо. Поддерживает максимальную готовность.</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_DUMMY_TEMP">Временная защита</Row>
+    <Row Tag="TXT_KEY_BUILDING_RU_DUMMY_TEMP_HELP">Техническая постройка для временных эффектов.</Row>
+
+    <Row Tag="TXT_KEY_PROJECT_RU_PERIMETER">Протокол «Периметр»</Row>
+    <Row Tag="TXT_KEY_PROJECT_RU_PERIMETER_HELP">Запускает автоматизированный ответный удар при выполнении условий.</Row>
+
+    <Row Tag="TXT_KEY_POLICY_RU_AL1">Готовность I</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL2">Готовность II</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL3">Готовность III</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL4">Готовность IV</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL5">Готовность V</Row>
+    <Row Tag="TXT_KEY_POLICY_RU_AL_HELP">Используется для сохранения уровня готовности «Периметр».</Row>
+
+    <Row Tag="TXT_KEY_NOTIFICATION_RU_PERIMETER_ALERT">Периметр: новая угроза!</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RU_PERIMETER_SUMMARY">«Периметр» реагирует</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RU_PERIMETER_DESC">Событие повысило уровень готовности. Проверьте панель Периметра.</Row>
+
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_TITLE">Сеть «Периметр»</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_AL">Уровень готовности: {1}</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_MODE_AUTO">Авто-режим: {1}</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_PANEL_PRESET">Профиль агрессии: {1}</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_TOGGLE_AUTO">Переключить авто-режим</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_CYCLE_PRESET">Сменить профиль</Row>
+    <Row Tag="TXT_KEY_RU_PERIMETER_NOTIFICATION_REACTION">Реакция активирована: {1}</Row>
+  </Language_ru_RU>
+</GameData>
