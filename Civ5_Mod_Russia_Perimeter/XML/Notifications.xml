@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Notifications>
+    <Row>
+      <Type>NOTIFICATION_RU_PERIMETER_ALERT</Type>
+      <Message>TXT_KEY_NOTIFICATION_RU_PERIMETER_ALERT</Message>
+      <Summary>TXT_KEY_NOTIFICATION_RU_PERIMETER_SUMMARY</Summary>
+      <Description>TXT_KEY_NOTIFICATION_RU_PERIMETER_DESC</Description>
+      <IconAtlas>RUPERIMETER_ATLAS_064</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+    </Row>
+  </Notifications>
+</GameData>
