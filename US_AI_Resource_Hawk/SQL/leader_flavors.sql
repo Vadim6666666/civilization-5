@@ -1,0 +1,20 @@
+-- Усиление военных и экономических вкусов США
+INSERT OR REPLACE INTO Leader_Flavors (LeaderType, FlavorType, Flavor)
+VALUES
+('LEADER_WASHINGTON', 'FLAVOR_OFFENSE', 10),
+('LEADER_WASHINGTON', 'FLAVOR_MILITARY_TRAINING', 9),
+('LEADER_WASHINGTON', 'FLAVOR_AIR', 9),
+('LEADER_WASHINGTON', 'FLAVOR_NAVAL', 9),
+('LEADER_WASHINGTON', 'FLAVOR_NUKE', 10),
+('LEADER_WASHINGTON', 'FLAVOR_RECON', 6),
+('LEADER_WASHINGTON', 'FLAVOR_EXPANSION', 8),
+('LEADER_WASHINGTON', 'FLAVOR_SCIENCE', 7),
+('LEADER_WASHINGTON', 'FLAVOR_PRODUCTION', 8),
+('LEADER_WASHINGTON', 'FLAVOR_GOLD', 7);
+
+-- Усиление параметров соревновательности лидера
+UPDATE Leaders
+SET VictoryCompetitiveness = 9,
+    WonderCompetitiveness = 6,
+    Boldness = 9
+WHERE Type = 'LEADER_WASHINGTON';

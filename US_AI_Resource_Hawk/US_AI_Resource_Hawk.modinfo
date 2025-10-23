@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2ad65ad3-c4a2-41f6-89f8-9d3a0d609ce2" version="1">
+  <Properties>
+    <Name>Сокол ресурсов США</Name>
+    <Description>Переоснащает ИИ США на агрессивную охоту за стратегическими ресурсами и военное доминирование.</Description>
+    <Teaser>Американский ИИ охотится за нефтью и ураном и наращивает ударную мощь.</Teaser>
+    <Authors>OpenAI Assistant</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsMac>1</SupportsMac>
+    <SupportsLinux>1</SupportsLinux>
+    <Custom>AI Balance Focused</Custom>
+  </Properties>
+  <Dependencies>
+    <Mod id="0E3751E0-4D90-4D58-A88D-6A20B2270EB4" minversion="0" maxversion="999" title="Brave New World"/>
+  </Dependencies>
+  <References>
+    <Mod id="E9FD0A8C-9D5A-4AC1-8F6D-17B10E89F43E" minversion="0" maxversion="999" title="Gods and Kings"/>
+  </References>
+  <BlocksSaveFiles>0</BlocksSaveFiles>
+  <Settings>
+    <Setting id="AffectsAI" value="true"/>
+    <Setting id="AffectsBalance" value="true"/>
+  </Settings>
+  <FrontEndActions>
+    <UpdateDatabase>
+      <File>SQL/leader_flavors.sql</File>
+      <File>SQL/approaches_biases.sql</File>
+      <File>SQL/resource_priorities.sql</File>
+    </UpdateDatabase>
+    <UpdateText>
+      <File>XML/text_ru.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase>
+      <File>SQL/leader_flavors.sql</File>
+      <File>SQL/approaches_biases.sql</File>
+      <File>SQL/resource_priorities.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <InGameUIAddin>
+    <Name>USResourceHawkAI</Name>
+    <File>Lua/usa_resource_hawk.lua</File>
+    <SortOrder>100</SortOrder>
+  </InGameUIAddin>
+</Mod>

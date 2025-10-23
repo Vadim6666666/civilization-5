@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_ru_RU>
+    <Row Tag="TXT_KEY_US_RESOURCE_HAWK_TITLE">
+      <Text>Сокол ресурсов США</Text>
+    </Row>
+    <Row Tag="TXT_KEY_US_RESOURCE_HAWK_DESCRIPTION">
+      <Text>США усиливают военную экономику, охотятся за нефтью и ураном, чаще ведут захватнические войны против слабых стран. Больше авиации, флота и ядерного оружия.</Text>
+    </Row>
+  </Language_ru_RU>
+</GameData>
